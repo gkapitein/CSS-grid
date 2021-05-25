@@ -1,0 +1,32 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 100px 400px 200px 100px;
+}
+
+.site-header{
+background-color: lightblue;
+}
+
+.site-main{
+background-color: green;
+}
+
+.widget-area{
+background-color: purple;
+}
+
+.site-footer{
+background-color: darkblue;
+}
+
+@media (min-width 320px) {
+
+}
+
+@media(min-width 1024px) {
+    .grid-container{
+        display: grid;
+        grid-template-columns: 66% 33%;
+    }
+}
